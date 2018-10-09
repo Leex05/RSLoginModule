@@ -1,8 +1,9 @@
+source 'https://github.com/Leex05/RSLoginSpecs.git'
 use_frameworks!
 
 target 'RSLoginModule_Example' do
-  pod 'RSLoginModule', :path => '../'
-
+  pod 'RSLoginModule'
+  
   target 'RSLoginModule_Tests' do
     inherit! :search_paths
 

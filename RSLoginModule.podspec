@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RSLoginModule'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of RSLoginModule.'
+  s.version          = '0.1.1'
+  s.summary          = 'RealShopping登陆模块组件化'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/leex/RSLoginModule'
+  s.homepage         = 'https://github.com/Leex05/RSLoginModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'leex' => 'leixiao@kaituocn.com' }
-  s.source           = { :git => 'https://github.com/leex/RSLoginModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Leex05/RSLoginModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RSLoginModule/Classes/**/*'
+  s.source_files = 'RSLoginModule/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'RSLoginModule' => ['RSLoginModule/Assets/*.png']
