@@ -1,0 +1,16 @@
+PODS:
+  - RSLoginModule (0.1.0)
+
+DEPENDENCIES:
+  - RSLoginModule (from `../`)
+
+EXTERNAL SOURCES:
+  RSLoginModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RSLoginModule: 424b800acadd2a38548b4f0ebfb7663a0ccb9638
+
+PODFILE CHECKSUM: 7800c8e1bfda42a3b3375c42aa83d621de184860
+
+COCOAPODS: 1.5.3

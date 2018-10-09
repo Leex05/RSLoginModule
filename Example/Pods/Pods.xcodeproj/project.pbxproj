@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F8DCA34B3AB2972ADD2926237E00878 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224BB3308CF7C4E17CBAC7E6BFA9E3D /* ReplaceMe.m */; };
+		2308F81502F66448D559B6A59F17969C /* Pods-RSLoginModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BD29A3C14A43706949C5B8E73EDAAA /* Pods-RSLoginModule_Tests-dummy.m */; };
+		24DDCEF351B3FEF9259640184AC23A75 /* PromoCodeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD66F1C83CABCB542E60E10A603D41B /* PromoCodeController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3668DF1AD2A3EEA88481E016ECD26408 /* ProperyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068B452354E868D0BA05AAA1D7CABDCB /* ProperyController.m */; };
+		37C558A196D3124EE6D11CFF45EB09A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		479CABD2EF7F15AD5E83FC9DA51A5103 /* PromoDetailsController.xib in Sources */ = {isa = PBXBuildFile; fileRef = FA368D297A576DB28DBE5574898982B4 /* PromoDetailsController.xib */; };
+		4B642DB5AAC0472A15C43C56593C1E34 /* CTMediator+Login.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F458655C0AF2159DFA57FE0AB7120D /* CTMediator+Login.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C61EB315994185E2AC2A251D40DEF5C /* PromoCodeController.xib in Sources */ = {isa = PBXBuildFile; fileRef = DE19E3CE9A3A1E38CEAF379FDFE00241 /* PromoCodeController.xib */; };
+		4C62E0984DF6374F79951698EFBD4A73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4F10368906FEDA6CE3560F25CABE26D8 /* RegistViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE84A3F3841BB746DDE6364FC9A7445D /* RegistViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BFF0A2F86492D6AB4A539DEBEFBCA84 /* LoginViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = B87D5F829F38CAC826FE3538E8F90736 /* LoginViewController.xib */; };
+		5CD1E856DB2690C3A1E362F8AD207E93 /* ResetPasswordController.h in Headers */ = {isa = PBXBuildFile; fileRef = 216175579CAF2125C789882B46AFE1FC /* ResetPasswordController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		681D53CB156AFCF1849BB532078FB546 /* RSLoginModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C676A2A9E3332DD4A04E9730A72F0CF /* RSLoginModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D46CCA4EE6F726F46606C895ECD78E2 /* Pods-RSLoginModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1149838581B9501FAC2C83366287489 /* Pods-RSLoginModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		729918D6DE8122AC6A854957E2788E86 /* CTMediator+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D8528B08689D534520069D95BB2BE6 /* CTMediator+Login.m */; };
+		74E50A09F01DFFD06C17F0F20C2AE93B /* PromoDetailsController.h in Headers */ = {isa = PBXBuildFile; fileRef = C99ED1C19555818F0F2D8759D34F3ED0 /* PromoDetailsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7762E2392E68CBDD2FEC6C668EFB6C3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7C6204D57C358177E36AB8AB01E2879E /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7355B0DD07DE306C5D47DF2E5B2EA22A /* RegistViewController.m */; };
+		A0D49BEEE4730AAACBC45581FC2CC9B2 /* ResetPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D0C1D6BF2672F4673ABEE7DC224DA4 /* ResetPasswordController.m */; };
+		C2464CE4754B2A24A39E37FDAF52ABA1 /* Target_Login.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF83DFE51954F6F9E52571829DDA43E /* Target_Login.m */; };
+		C7913C27A1B84D6DCC903F43BF120CD9 /* Target_Login.h in Headers */ = {isa = PBXBuildFile; fileRef = 603014D8B2432526B2631787A302ACA8 /* Target_Login.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D45AF8375B8A4375B096CE05DE79CD8C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A822A4B4ABE9CBBD34DBC4B068F80081 /* LoginViewController.m */; };
+		DE49D171256B34CEB65116E53BAB312F /* Pods-RSLoginModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4B983A8188FE2C399669F14201F9A2 /* Pods-RSLoginModule_Example-dummy.m */; };
+		DE7E719AB22CF343D3A3E204F2ADCEC2 /* ProperyController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8668BF41763BE04ACF4688856F0EBDED /* ProperyController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAE32B88D4DA0CA04C2A546F8C01AC7 /* RSLoginModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D487607CF88451E9F8C8E5FE916DA8 /* RSLoginModule-dummy.m */; };
+		E4B6E41A2D14D3C866B8735856D5247C /* PromoDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1710FFCF07B9CC069CB8274DE20A5BD /* PromoDetailsController.m */; };
+		EC1C1AA08EF9D94EF31DCDA19B8B173D /* PromoCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 297BEB5519341D1EF8DB67B10B0F5DE6 /* PromoCodeController.m */; };
+		FF3B6DB156DCB421F8FD69C1C6FDF1C2 /* Pods-RSLoginModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E93939F73E185C3A7B1586A2A034A0 /* Pods-RSLoginModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFD3750875B75C655FC25D97971E359C /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 933541AA3C554AA8F88DB5268F5B8A79 /* LoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		432FD98194545322F0A6C05795F5E6B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555C299DBC4AA8F2EFCC185B6F8F49AF;
+			remoteInfo = "Pods-RSLoginModule_Example";
+		};
+		5F99F590308E76B06992FC69E6E83246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F40D1272253A0464DA4DC07AAB8109C;
+			remoteInfo = RSLoginModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068B452354E868D0BA05AAA1D7CABDCB /* ProperyController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ProperyController.m; sourceTree = "<group>"; };
+		08D0C1D6BF2672F4673ABEE7DC224DA4 /* ResetPasswordController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordController.m; sourceTree = "<group>"; };
+		11BD29A3C14A43706949C5B8E73EDAAA /* Pods-RSLoginModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSLoginModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		134E02C01718DF3A9C9A9CA5FD5C8D86 /* RSLoginModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSLoginModule.xcconfig; sourceTree = "<group>"; };
+		16C469A051FF61101B07F5C5A070B3CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A672E1863BCE4666F214B3EE8BB22F8 /* Pods-RSLoginModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSLoginModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CB872D56F7927D2F37BF642911DC2B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1CED3AF2A72BC683666B9E0D8538A479 /* Pods-RSLoginModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSLoginModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		216175579CAF2125C789882B46AFE1FC /* ResetPasswordController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ResetPasswordController.h; sourceTree = "<group>"; };
+		21F458655C0AF2159DFA57FE0AB7120D /* CTMediator+Login.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Login.h"; sourceTree = "<group>"; };
+		25333F327121B0EF385C6B15A1A1277A /* RSLoginModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSLoginModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E1C5F7E7B35C57FD67BA3CBAC82861 /* RSLoginModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSLoginModule.modulemap; sourceTree = "<group>"; };
+		27D487607CF88451E9F8C8E5FE916DA8 /* RSLoginModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSLoginModule-dummy.m"; sourceTree = "<group>"; };
+		297BEB5519341D1EF8DB67B10B0F5DE6 /* PromoCodeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PromoCodeController.m; sourceTree = "<group>"; };
+		2C676A2A9E3332DD4A04E9730A72F0CF /* RSLoginModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSLoginModule-umbrella.h"; sourceTree = "<group>"; };
+		2CD66F1C83CABCB542E60E10A603D41B /* PromoCodeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PromoCodeController.h; sourceTree = "<group>"; };
+		3A9AC36B21FA8ECFB191634C2DE9BC2B /* Pods-RSLoginModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSLoginModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3CDA27985220321E1E1A7C53AD04B1B6 /* Pods-RSLoginModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSLoginModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E4B983A8188FE2C399669F14201F9A2 /* Pods-RSLoginModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSLoginModule_Example-dummy.m"; sourceTree = "<group>"; };
+		3F797992EB11AC0CD2FC10866668B91B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C064154DCDD9BBCAAD644EFC7B9B55 /* Pods-RSLoginModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSLoginModule_Tests-resources.sh"; sourceTree = "<group>"; };
+		4C482707D7ACE64EB7607A845153503A /* Pods_RSLoginModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSLoginModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5181909ED182E2B1114B57F15D0007AE /* Pods-RSLoginModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSLoginModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		603014D8B2432526B2631787A302ACA8 /* Target_Login.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_Login.h; sourceTree = "<group>"; };
+		6224BB3308CF7C4E17CBAC7E6BFA9E3D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RSLoginModule/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		70F98F6AFEA6F362EE997D797D8841CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7355B0DD07DE306C5D47DF2E5B2EA22A /* RegistViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		7B2853D9DF78AA9133300DE17333AAB0 /* Pods-RSLoginModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSLoginModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7B54CA4D1E49A1FA64E7043DB2D488B6 /* Pods-RSLoginModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSLoginModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		81DF5A970EDA5BEE7228D888A4DD48DF /* Pods-RSLoginModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSLoginModule_Example-resources.sh"; sourceTree = "<group>"; };
+		8668BF41763BE04ACF4688856F0EBDED /* ProperyController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ProperyController.h; sourceTree = "<group>"; };
+		8961452EF6E2BBDC8ADEA958F3338489 /* Pods-RSLoginModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSLoginModule_Example.modulemap"; sourceTree = "<group>"; };
+		8F4ADD46964C6418BC80335CAB4F61AA /* RSLoginModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSLoginModule-prefix.pch"; sourceTree = "<group>"; };
+		933541AA3C554AA8F88DB5268F5B8A79 /* LoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A822A4B4ABE9CBBD34DBC4B068F80081 /* LoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		AB8DBEB4DEF7A0867BB40BF5F6F012CF /* Pods_RSLoginModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSLoginModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF83DFE51954F6F9E52571829DDA43E /* Target_Login.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_Login.m; sourceTree = "<group>"; };
+		B1149838581B9501FAC2C83366287489 /* Pods-RSLoginModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSLoginModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		B326973335B78D555DBE4E50160524A7 /* Pods-RSLoginModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSLoginModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B4A5313EB762BD81C77B0DE5A015F3E2 /* Pods-RSLoginModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSLoginModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B87D5F829F38CAC826FE3538E8F90736 /* LoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C1E93939F73E185C3A7B1586A2A034A0 /* Pods-RSLoginModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSLoginModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C6D8528B08689D534520069D95BB2BE6 /* CTMediator+Login.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Login.m"; sourceTree = "<group>"; };
+		C853137D27F96BBA3E514E0F01F3EC02 /* Pods-RSLoginModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSLoginModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C99ED1C19555818F0F2D8759D34F3ED0 /* PromoDetailsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PromoDetailsController.h; sourceTree = "<group>"; };
+		CD7ECD074429174BCE5F4A4803DDD79C /* Pods-RSLoginModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSLoginModule_Tests.modulemap"; sourceTree = "<group>"; };
+		CE84A3F3841BB746DDE6364FC9A7445D /* RegistViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		D47A636D06F62DECC0371947824D2971 /* RSLoginModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RSLoginModule.podspec; sourceTree = "<group>"; };
+		DE19E3CE9A3A1E38CEAF379FDFE00241 /* PromoCodeController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PromoCodeController.xib; sourceTree = "<group>"; };
+		F1710FFCF07B9CC069CB8274DE20A5BD /* PromoDetailsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PromoDetailsController.m; sourceTree = "<group>"; };
+		F5C29CBE1E6093132B8D72781B082BED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA368D297A576DB28DBE5574898982B4 /* PromoDetailsController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PromoDetailsController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44BCD884E1868D23C4FC6AA96D554817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C62E0984DF6374F79951698EFBD4A73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5354C13382BAE51F9860BD8688D4C368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C558A196D3124EE6D11CFF45EB09A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D09FB37E8D3FE38D0E4891E1AF60454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7762E2392E68CBDD2FEC6C668EFB6C3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ECB923F1001C7E8B61B94A85AA43C76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5C29CBE1E6093132B8D72781B082BED /* Info.plist */,
+				26E1C5F7E7B35C57FD67BA3CBAC82861 /* RSLoginModule.modulemap */,
+				134E02C01718DF3A9C9A9CA5FD5C8D86 /* RSLoginModule.xcconfig */,
+				27D487607CF88451E9F8C8E5FE916DA8 /* RSLoginModule-dummy.m */,
+				8F4ADD46964C6418BC80335CAB4F61AA /* RSLoginModule-prefix.pch */,
+				2C676A2A9E3332DD4A04E9730A72F0CF /* RSLoginModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RSLoginModule";
+			sourceTree = "<group>";
+		};
+		309CE9C06E237B26BFA751F808218312 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1CB872D56F7927D2F37BF642911DC2B1 /* LICENSE */,
+				70F98F6AFEA6F362EE997D797D8841CC /* README.md */,
+				D47A636D06F62DECC0371947824D2971 /* RSLoginModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4195444FD50A048BBE31F133576E6FD8 /* Pods-RSLoginModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3F797992EB11AC0CD2FC10866668B91B /* Info.plist */,
+				8961452EF6E2BBDC8ADEA958F3338489 /* Pods-RSLoginModule_Example.modulemap */,
+				B4A5313EB762BD81C77B0DE5A015F3E2 /* Pods-RSLoginModule_Example-acknowledgements.markdown */,
+				1A672E1863BCE4666F214B3EE8BB22F8 /* Pods-RSLoginModule_Example-acknowledgements.plist */,
+				3E4B983A8188FE2C399669F14201F9A2 /* Pods-RSLoginModule_Example-dummy.m */,
+				3A9AC36B21FA8ECFB191634C2DE9BC2B /* Pods-RSLoginModule_Example-frameworks.sh */,
+				81DF5A970EDA5BEE7228D888A4DD48DF /* Pods-RSLoginModule_Example-resources.sh */,
+				B1149838581B9501FAC2C83366287489 /* Pods-RSLoginModule_Example-umbrella.h */,
+				B326973335B78D555DBE4E50160524A7 /* Pods-RSLoginModule_Example.debug.xcconfig */,
+				5181909ED182E2B1114B57F15D0007AE /* Pods-RSLoginModule_Example.release.xcconfig */,
+			);
+			name = "Pods-RSLoginModule_Example";
+			path = "Target Support Files/Pods-RSLoginModule_Example";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62FC90D8B5F2A335A6410BA65D04BDC8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4195444FD50A048BBE31F133576E6FD8 /* Pods-RSLoginModule_Example */,
+				C74EF4F75542A97D2DAF2A12F36EF9CE /* Pods-RSLoginModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CE81E9F5FD96BC98E2588DBC072A374D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8BE975C12AB2207D6CF6D71362198523 /* Products */,
+				62FC90D8B5F2A335A6410BA65D04BDC8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BE975C12AB2207D6CF6D71362198523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C482707D7ACE64EB7607A845153503A /* Pods_RSLoginModule_Example.framework */,
+				AB8DBEB4DEF7A0867BB40BF5F6F012CF /* Pods_RSLoginModule_Tests.framework */,
+				25333F327121B0EF385C6B15A1A1277A /* RSLoginModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E162F3C9229B0B5EC8BCDDA4483408C /* Target-Action */ = {
+			isa = PBXGroup;
+			children = (
+				21F458655C0AF2159DFA57FE0AB7120D /* CTMediator+Login.h */,
+				C6D8528B08689D534520069D95BB2BE6 /* CTMediator+Login.m */,
+				603014D8B2432526B2631787A302ACA8 /* Target_Login.h */,
+				AFF83DFE51954F6F9E52571829DDA43E /* Target_Login.m */,
+			);
+			path = "Target-Action";
+			sourceTree = "<group>";
+		};
+		95E7A176948E6C49D6B1F26FED529E1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B87D5F829F38CAC826FE3538E8F90736 /* LoginViewController.xib */,
+				DE19E3CE9A3A1E38CEAF379FDFE00241 /* PromoCodeController.xib */,
+				FA368D297A576DB28DBE5574898982B4 /* PromoDetailsController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C74EF4F75542A97D2DAF2A12F36EF9CE /* Pods-RSLoginModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16C469A051FF61101B07F5C5A070B3CD /* Info.plist */,
+				CD7ECD074429174BCE5F4A4803DDD79C /* Pods-RSLoginModule_Tests.modulemap */,
+				C853137D27F96BBA3E514E0F01F3EC02 /* Pods-RSLoginModule_Tests-acknowledgements.markdown */,
+				3CDA27985220321E1E1A7C53AD04B1B6 /* Pods-RSLoginModule_Tests-acknowledgements.plist */,
+				11BD29A3C14A43706949C5B8E73EDAAA /* Pods-RSLoginModule_Tests-dummy.m */,
+				1CED3AF2A72BC683666B9E0D8538A479 /* Pods-RSLoginModule_Tests-frameworks.sh */,
+				42C064154DCDD9BBCAAD644EFC7B9B55 /* Pods-RSLoginModule_Tests-resources.sh */,
+				C1E93939F73E185C3A7B1586A2A034A0 /* Pods-RSLoginModule_Tests-umbrella.h */,
+				7B54CA4D1E49A1FA64E7043DB2D488B6 /* Pods-RSLoginModule_Tests.debug.xcconfig */,
+				7B2853D9DF78AA9133300DE17333AAB0 /* Pods-RSLoginModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-RSLoginModule_Tests";
+			path = "Target Support Files/Pods-RSLoginModule_Tests";
+			sourceTree = "<group>";
+		};
+		C86AD897225EB0F9C0FADC2694105AE4 /* RSLoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				6224BB3308CF7C4E17CBAC7E6BFA9E3D /* ReplaceMe.m */,
+				F74CF028C80C83010A9DF2A9C4398438 /* Login */,
+				309CE9C06E237B26BFA751F808218312 /* Pod */,
+				2ECB923F1001C7E8B61B94A85AA43C76 /* Support Files */,
+			);
+			name = RSLoginModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CE81E9F5FD96BC98E2588DBC072A374D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C86AD897225EB0F9C0FADC2694105AE4 /* RSLoginModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EE43FDE2BEB43CD04E6F243FF6403FC8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				933541AA3C554AA8F88DB5268F5B8A79 /* LoginViewController.h */,
+				A822A4B4ABE9CBBD34DBC4B068F80081 /* LoginViewController.m */,
+				2CD66F1C83CABCB542E60E10A603D41B /* PromoCodeController.h */,
+				297BEB5519341D1EF8DB67B10B0F5DE6 /* PromoCodeController.m */,
+				C99ED1C19555818F0F2D8759D34F3ED0 /* PromoDetailsController.h */,
+				F1710FFCF07B9CC069CB8274DE20A5BD /* PromoDetailsController.m */,
+				8668BF41763BE04ACF4688856F0EBDED /* ProperyController.h */,
+				068B452354E868D0BA05AAA1D7CABDCB /* ProperyController.m */,
+				CE84A3F3841BB746DDE6364FC9A7445D /* RegistViewController.h */,
+				7355B0DD07DE306C5D47DF2E5B2EA22A /* RegistViewController.m */,
+				216175579CAF2125C789882B46AFE1FC /* ResetPasswordController.h */,
+				08D0C1D6BF2672F4673ABEE7DC224DA4 /* ResetPasswordController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F74CF028C80C83010A9DF2A9C4398438 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EE43FDE2BEB43CD04E6F243FF6403FC8 /* Controllers */,
+				8E162F3C9229B0B5EC8BCDDA4483408C /* Target-Action */,
+				95E7A176948E6C49D6B1F26FED529E1E /* Views */,
+			);
+			name = Login;
+			path = RSLoginModule/Classes/Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F690506DBB519B901BBE08D0BE3005D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3B6DB156DCB421F8FD69C1C6FDF1C2 /* Pods-RSLoginModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5210979C605D4C3845B0BEA92F578AD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D46CCA4EE6F726F46606C895ECD78E2 /* Pods-RSLoginModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2B78973A1872411F8DA82B6532B442 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B642DB5AAC0472A15C43C56593C1E34 /* CTMediator+Login.h in Headers */,
+				FFD3750875B75C655FC25D97971E359C /* LoginViewController.h in Headers */,
+				24DDCEF351B3FEF9259640184AC23A75 /* PromoCodeController.h in Headers */,
+				74E50A09F01DFFD06C17F0F20C2AE93B /* PromoDetailsController.h in Headers */,
+				DE7E719AB22CF343D3A3E204F2ADCEC2 /* ProperyController.h in Headers */,
+				4F10368906FEDA6CE3560F25CABE26D8 /* RegistViewController.h in Headers */,
+				5CD1E856DB2690C3A1E362F8AD207E93 /* ResetPasswordController.h in Headers */,
+				681D53CB156AFCF1849BB532078FB546 /* RSLoginModule-umbrella.h in Headers */,
+				C7913C27A1B84D6DCC903F43BF120CD9 /* Target_Login.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F40D1272253A0464DA4DC07AAB8109C /* RSLoginModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F193ABA28A8B876DE3617C3EE03B8AC /* Build configuration list for PBXNativeTarget "RSLoginModule" */;
+			buildPhases = (
+				7E2B78973A1872411F8DA82B6532B442 /* Headers */,
+				37CE04BCC5EB3DD371E7C73FF6A7D34E /* Sources */,
+				6D09FB37E8D3FE38D0E4891E1AF60454 /* Frameworks */,
+				C29883839E7045C541726A43D596B079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSLoginModule;
+			productName = RSLoginModule;
+			productReference = 25333F327121B0EF385C6B15A1A1277A /* RSLoginModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41565706BB7933CE7C4246705A7CA13D /* Pods-RSLoginModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A274A2A4B6EF58D0DA87723FFCFD6F6F /* Build configuration list for PBXNativeTarget "Pods-RSLoginModule_Tests" */;
+			buildPhases = (
+				3F690506DBB519B901BBE08D0BE3005D /* Headers */,
+				4C936EF61F7F287087FCA50738ECCF30 /* Sources */,
+				5354C13382BAE51F9860BD8688D4C368 /* Frameworks */,
+				DB8ECB2D3FF3C01E1B5315422E8F6D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				752BC3FCF80B7B39317B19B5F4E23112 /* PBXTargetDependency */,
+			);
+			name = "Pods-RSLoginModule_Tests";
+			productName = "Pods-RSLoginModule_Tests";
+			productReference = AB8DBEB4DEF7A0867BB40BF5F6F012CF /* Pods_RSLoginModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		555C299DBC4AA8F2EFCC185B6F8F49AF /* Pods-RSLoginModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920B3B2D23E60D3AF71DE2CA20566EDF /* Build configuration list for PBXNativeTarget "Pods-RSLoginModule_Example" */;
+			buildPhases = (
+				5210979C605D4C3845B0BEA92F578AD4 /* Headers */,
+				9563BF70D28D32706C7096AED4EF6F6C /* Sources */,
+				44BCD884E1868D23C4FC6AA96D554817 /* Frameworks */,
+				B264FCFA46C15A0349193C6497B34081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A184E1C96031C6E834B6D7B481A36D98 /* PBXTargetDependency */,
+			);
+			name = "Pods-RSLoginModule_Example";
+			productName = "Pods-RSLoginModule_Example";
+			productReference = 4C482707D7ACE64EB7607A845153503A /* Pods_RSLoginModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8BE975C12AB2207D6CF6D71362198523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				555C299DBC4AA8F2EFCC185B6F8F49AF /* Pods-RSLoginModule_Example */,
+				41565706BB7933CE7C4246705A7CA13D /* Pods-RSLoginModule_Tests */,
+				0F40D1272253A0464DA4DC07AAB8109C /* RSLoginModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B264FCFA46C15A0349193C6497B34081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29883839E7045C541726A43D596B079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8ECB2D3FF3C01E1B5315422E8F6D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37CE04BCC5EB3DD371E7C73FF6A7D34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729918D6DE8122AC6A854957E2788E86 /* CTMediator+Login.m in Sources */,
+				D45AF8375B8A4375B096CE05DE79CD8C /* LoginViewController.m in Sources */,
+				5BFF0A2F86492D6AB4A539DEBEFBCA84 /* LoginViewController.xib in Sources */,
+				EC1C1AA08EF9D94EF31DCDA19B8B173D /* PromoCodeController.m in Sources */,
+				4C61EB315994185E2AC2A251D40DEF5C /* PromoCodeController.xib in Sources */,
+				E4B6E41A2D14D3C866B8735856D5247C /* PromoDetailsController.m in Sources */,
+				479CABD2EF7F15AD5E83FC9DA51A5103 /* PromoDetailsController.xib in Sources */,
+				3668DF1AD2A3EEA88481E016ECD26408 /* ProperyController.m in Sources */,
+				7C6204D57C358177E36AB8AB01E2879E /* RegistViewController.m in Sources */,
+				1F8DCA34B3AB2972ADD2926237E00878 /* ReplaceMe.m in Sources */,
+				A0D49BEEE4730AAACBC45581FC2CC9B2 /* ResetPasswordController.m in Sources */,
+				DEAE32B88D4DA0CA04C2A546F8C01AC7 /* RSLoginModule-dummy.m in Sources */,
+				C2464CE4754B2A24A39E37FDAF52ABA1 /* Target_Login.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C936EF61F7F287087FCA50738ECCF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2308F81502F66448D559B6A59F17969C /* Pods-RSLoginModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9563BF70D28D32706C7096AED4EF6F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE49D171256B34CEB65116E53BAB312F /* Pods-RSLoginModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		752BC3FCF80B7B39317B19B5F4E23112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RSLoginModule_Example";
+			target = 555C299DBC4AA8F2EFCC185B6F8F49AF /* Pods-RSLoginModule_Example */;
+			targetProxy = 432FD98194545322F0A6C05795F5E6B9 /* PBXContainerItemProxy */;
+		};
+		A184E1C96031C6E834B6D7B481A36D98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSLoginModule;
+			target = 0F40D1272253A0464DA4DC07AAB8109C /* RSLoginModule */;
+			targetProxy = 5F99F590308E76B06992FC69E6E83246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5968D22C45543D279FACC51D75C3710B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B326973335B78D555DBE4E50160524A7 /* Pods-RSLoginModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSLoginModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSLoginModule_Example/Pods-RSLoginModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67667F6F256C178D926B9EDB8C48DD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2853D9DF78AA9133300DE17333AAB0 /* Pods-RSLoginModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSLoginModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSLoginModule_Tests/Pods-RSLoginModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CD13FDE5D506453F57D4EC526A4CBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 134E02C01718DF3A9C9A9CA5FD5C8D86 /* RSLoginModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSLoginModule/RSLoginModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSLoginModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSLoginModule/RSLoginModule.modulemap";
+				PRODUCT_MODULE_NAME = RSLoginModule;
+				PRODUCT_NAME = RSLoginModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95D651A3CD5252CF71D259F82B7F7881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 134E02C01718DF3A9C9A9CA5FD5C8D86 /* RSLoginModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSLoginModule/RSLoginModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSLoginModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSLoginModule/RSLoginModule.modulemap";
+				PRODUCT_MODULE_NAME = RSLoginModule;
+				PRODUCT_NAME = RSLoginModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A467BD1AAFFC8B4AA0386984590ED7AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5181909ED182E2B1114B57F15D0007AE /* Pods-RSLoginModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSLoginModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSLoginModule_Example/Pods-RSLoginModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EDF3F9CC8ED4359E6E9F91B4A524DF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B54CA4D1E49A1FA64E7043DB2D488B6 /* Pods-RSLoginModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSLoginModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSLoginModule_Tests/Pods-RSLoginModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F193ABA28A8B876DE3617C3EE03B8AC /* Build configuration list for PBXNativeTarget "RSLoginModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D651A3CD5252CF71D259F82B7F7881 /* Debug */,
+				8CD13FDE5D506453F57D4EC526A4CBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920B3B2D23E60D3AF71DE2CA20566EDF /* Build configuration list for PBXNativeTarget "Pods-RSLoginModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5968D22C45543D279FACC51D75C3710B /* Debug */,
+				A467BD1AAFFC8B4AA0386984590ED7AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A274A2A4B6EF58D0DA87723FFCFD6F6F /* Build configuration list for PBXNativeTarget "Pods-RSLoginModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF3F9CC8ED4359E6E9F91B4A524DF2D /* Debug */,
+				67667F6F256C178D926B9EDB8C48DD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
