@@ -1,9 +1,9 @@
 {
   "name": "RSLoginModule",
-  "version": "0.1.0",
-  "summary": "A short description of RSLoginModule.",
+  "version": "0.1.1",
+  "summary": "RealShopping登陆模块组件化",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/leex/RSLoginModule",
+  "homepage": "https://github.com/Leex05/RSLoginModule",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "leex": "leixiao@kaituocn.com"
   },
   "source": {
-    "git": "https://github.com/leex/RSLoginModule.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Leex05/RSLoginModule.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "RSLoginModule/Classes/**/*"
+  "source_files": "RSLoginModule/Classes/**/*.{h,m}"
 }

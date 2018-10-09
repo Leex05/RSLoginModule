@@ -10,12 +10,19 @@
 #endif
 #endif
 
+#import "BaseModel.h"
+#import "BaseViewController.h"
+#import "CTMediator.h"
 #import "LoginViewController.h"
 #import "PromoCodeController.h"
 #import "PromoDetailsController.h"
 #import "ProperyController.h"
 #import "RegistViewController.h"
 #import "ResetPasswordController.h"
+#import "LXTools.h"
+#import "NetTools.h"
+#import "XXLinkLabel.h"
+#import "VipInfoScvoModel.h"
 #import "CTMediator+Login.h"
 #import "Target_Login.h"
 
