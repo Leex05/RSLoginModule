@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RSLoginModule_Example' do
+  pod 'RSLoginModule', :path => '../'
+
+  target 'RSLoginModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
