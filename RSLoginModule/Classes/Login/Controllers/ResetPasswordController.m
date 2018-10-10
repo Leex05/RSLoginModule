@@ -8,6 +8,7 @@
 
 #import "ResetPasswordController.h"
 #import "LXTools.h"
+
 @interface ResetPasswordController ()
 @property (strong,nonatomic) UITextField *accountField;
 @property (strong,nonatomic) UITextField *vCodeField;

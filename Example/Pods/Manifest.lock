@@ -19,8 +19,7 @@ PODS:
   - MBProgressHUD (1.1.0)
   - MJRefresh (3.1.15.6)
   - ReactiveObjC (3.1.0)
-  - RSLoginModule (0.1.1)
-  - RSToolsModule (0.1.0):
+  - RSLoginModule (0.1.1):
     - AFNetworking
     - IQKeyboardManager
     - Masonry
@@ -28,11 +27,14 @@ PODS:
     - MJRefresh
     - ReactiveObjC
     - SAMKeychain
+    - SDCycleScrollView
     - SDWebImage
     - SGQRCode (~> 2.1.8)
     - SVProgressHUD
     - YYModel
   - SAMKeychain (1.5.3)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
@@ -42,7 +44,6 @@ PODS:
 
 DEPENDENCIES:
   - RSLoginModule (from `../`)
-  - RSToolsModule
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -53,12 +54,11 @@ SPEC REPOS:
     - MJRefresh
     - ReactiveObjC
     - SAMKeychain
+    - SDCycleScrollView
     - SDWebImage
     - SGQRCode
     - SVProgressHUD
     - YYModel
-  https://github.com/Leex05/RSToolsSpecs.git:
-    - RSToolsModule
 
 EXTERNAL SOURCES:
   RSLoginModule:
@@ -71,14 +71,14 @@ SPEC CHECKSUMS:
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
-  RSLoginModule: f6f7d7001adbee9493ac6ace8571048a9c48ea8f
-  RSToolsModule: 7f5e69a952c2bb50b2f4905238c150c8881d3905
+  RSLoginModule: 56e17b13c8ef9970103ce177e6ec2ee0f04c35d5
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SGQRCode: b13f93b5c0f16f840beff8009e0c129a5f3d4d8f
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 372c243a8c79e2c9a39e386b939bed58185a8d14
+PODFILE CHECKSUM: fd06447a13c9220274a46168649c3e62e18534dc
 
 COCOAPODS: 1.5.3

@@ -1,0 +1,71 @@
+//
+//  PrefixHeader.pch
+//  JavaScriptCore-Demo
+//
+//  Created by leex on 2018/8/29.
+//  Copyright © 2018年 www.skyfox.org. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//Apple账号
+#define kIsApple    [[AccountTools shared].currentAccount.username isEqualToString:@"13296933528"]
+//缩放
+#define kScaleWidth(w)  w*(kScreenWidth/375.0)
+#define kScaleHeight(h)  h*(kScreenHeight/667.0)
+//是否登录状态
+#define kIsLogin         [AccountTools shared].currentAccount.token
+//字体
+#define kFont(f)         [UIFont systemFontOfSize:f]
+//tabbar高度
+#define kTabBarHeight   (kScreenHeight>800?83:49)
+//statubar高度
+#define kStatusBarHeight   (kScreenHeight>800?44:20)
+
+//图片
+#define kImageNamed(imgName) [UIImage imageNamed:(imgName)]
+//屏幕宽高
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+//rgba颜色
+#define kRGBA(r,g,b,a) [UIColor colorWithRed:(float)r/255.0f green:(float)g/255.0f blue:(float)b/255.0f alpha:a]
+//导航背景色
+#define kNavBGColor [UIColor colorWithRed:0.18f green:0.17f blue:0.17f alpha:1.00f]
+//主题红色
+#define kRedColor rgb(181,38,45)
+//...懒
+#define rgb(r,g,b) [UIColor colorWithRed:(float)r/255.0f green:(float)g/255.0f blue:(float)b/255.0f alpha:1]
+//iphoneX类判断
+#define KIsiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define KIsiPhoneXSMax ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
+#define KIsiPhoneXR ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) : NO)
+//weak
+#define WeakSelf(weakSelf)  __weak __typeof(self) weakSelf = self;
+#import "LXTools.h"
+#import "UILabel+CreatLabel.h"
+#import "LxButton.h"
+#import "UIColor+Expanded.h"
+#import "UILabel+LXLabel.h"
+#import "UIView+LX_Frame.h"
+#import "UIView+FTCornerdious.h"
+#import "UIButton+Layout.h"
+#import "UrlConfig.h"
+#import "NetTools.h"
+#import "AccountTools.h"
+#import "Masonry.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+show.h"
+#import "UIImageView+WebCache.h"
+#import "UIView+YZTCView.h"
+#import "MJRefresh.h"
+#import "ReactiveObjC.h"
+#import "SDCycleScrollView.h"
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "CTMediator.h"
+#import "CTMediator+Login.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

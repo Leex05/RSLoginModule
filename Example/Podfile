@@ -1,11 +1,11 @@
-source 'https://github.com/Leex05/RSToolsSpecs.git'
+#source 'https://github.com/Leex05/RSLoginSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 use_frameworks!
 
 target 'RSLoginModule_Example' do
     pod 'RSLoginModule',:path =>'../'
-    pod 'RSToolsModule'
+#    pod 'RSToolsModule'
   target 'RSLoginModule_Tests' do
     inherit! :search_paths
 

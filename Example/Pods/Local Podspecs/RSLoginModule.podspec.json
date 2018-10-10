@@ -18,5 +18,43 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "RSLoginModule/Classes/**/*.{h,m}"
+  "source_files": "RSLoginModule/Classes/**/*.{h,m}",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "SDCycleScrollView": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ReactiveObjC": [
+
+    ],
+    "SGQRCode": [
+      "~> 2.1.8"
+    ],
+    "YYModel": [
+
+    ],
+    "SAMKeychain": [
+
+    ],
+    "SVProgressHUD": [
+
+    ]
+  }
 }

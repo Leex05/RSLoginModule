@@ -7,8 +7,10 @@
 //
 
 #import "PromoCodeController.h"
-
+#import "LXTools.h"
+#import "MBProgressHUD.h"
 @interface PromoCodeController ()
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
 
 @property (weak, nonatomic) IBOutlet UIImageView *codeView;
 

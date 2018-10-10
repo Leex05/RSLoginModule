@@ -7,8 +7,7 @@
 //
 
 #import "BaseViewController.h"
-
-
+#import "CTMediator+Login.h"
 @interface ProperyController : BaseViewController
 @property (assign,nonatomic) PropertyType properyType;
 @end
